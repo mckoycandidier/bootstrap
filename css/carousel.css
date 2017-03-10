@@ -17,9 +17,10 @@ body {
   margin-bottom: 4rem;
 }
 /* Since positioning the image, we need to help out the caption */
-.carousel-caption {
+.carousel-caption  h3,p{
   z-index: 10;
   bottom: 3rem;
+  font-size:50px;
 }
 
 /* Declare heights because of positioning of img element */
