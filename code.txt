@@ -35,3 +35,5 @@ git reset --hard f6e5064
 
 git pull
 
+
+git pull origin master
