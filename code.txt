@@ -1,3 +1,4 @@
+https://www.queness.com/post/620/create-a-stunning-sliding-door-effect-with-jquery
 cd D:/yourfolder/git
 
 git config --global user.name "your name"
