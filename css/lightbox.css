@@ -10,8 +10,13 @@ height:100%;
 width:100%;
 }
 
-.modal-dialog {
-width:600px;
+.modal-dialog{
+    position: relative;
+    display: table; //This is important 
+    overflow-y: auto;    
+    overflow-x: auto;
+    width: auto;
+    min-width: 200px;   
 }
 
 
