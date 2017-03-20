@@ -1,0 +1,17 @@
+.cal{
+	/* some styling for the item */	
+	margin:5px 5px 5px 5px;
+	background: url('img/bg.gif') no-repeat;
+	
+	/* make sure the four divs are hidden after changing the position */
+	overflow:hidden;
+	
+	/* absolute position enabled for children elements*/
+	position:relative;
+	
+	/* display item in single row */
+	float:center;
+	
+	/* hand symbol for ie and other browser */
+	cursor:hand; cursor:pointer;
+}
