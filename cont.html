@@ -7,86 +7,246 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Bootstrap</title>
+    <title>Contributor</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+	
 
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
 	<link href="css/card.css" rel="stylesheet">
+	<link href="css/lightbox.css" rel="stylesheet">
 	<link href="css/DoorEffect.css" rel="stylesheet">
 	
   </head>
-  <body>
+   <body>
+  <!-- Navigation bar-->
+  <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">WebDevOneTwoThree</a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="calendar.html">Contributor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="calendar.html">Calendar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0"> 
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+			  Sign-in
+			</button>	
+        </form>
+		
+      </div>
+    </nav>
+	
+	 <!-- Modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Sign-in</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="modal-body">
+					<div class="container">
+					  <form>
+						<div class="form-group row">
+						  <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+						  <div class="col-sm-10">
+							<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+						  </div>
+						</div>
+						<div class="form-group row">
+						  <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+						  <div class="col-sm-10">
+							<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+						  </div>
+						</div>	
+						<div class="form-group row">
+						  <div class="offset-sm-2 col-sm-10">
+							<button type="submit" class="btn btn-primary">Sign in</button>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<br>
+  
+<div class="align">
+ <div class="cont">
   <div class="container">
-           <div class="row">
-		   <div class="col-lg-3 col-sm-4 col-6">
-
+	<div class="row">
+		<div class="col-lg-3 col-sm-4 col-6">
 			<div class="qitem">
-			<a href="http://www.google.com"><img src="img/NDMC.png" alt="Test 1" title="" width="126" height="126"/></a>
+			<a href="http://www.google.com"><img src="img/1.gif" alt="Test 1" title="Joven" width="126" height="126"/></a>
+			<span class="caption"><h4>Joven Niel Poquita</h4><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></span>
+		</div>
+	</div>
+		<div class="card-block" id="font">
+			<h4 class="card-title"><li><a href="">Joven Niel Poquita</a></li></h4>
+			<p class="card-text">Github: <a href="https://github.com/joevinnielp"> joevinnielp</a></p>
+		</div>
+	</div>
+	</div> 
+</div>	
+
+
+ <div class="cont">
+  <div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-sm-4 col-6">
+			<div class="qitem">
+			<a href="http://www.google.com"><img src="img/2.gif" alt="Test 1" title="" width="126" height="126"/></a>
 			<span class="caption"><h4>Night Club</h4><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></span>
 		</div>
+	</div>
+		<div class="card-block" id="font">
+			<h4 class="card-title"><li><a href="index.html">Louis Aleksie B. Dagusen</a></li></h4>
+			<p class="card-text">Github: <a href="https://github.com/louis09">louis09</a></p>
 		</div>
-		<div class="card-block">
-				<h4 class="card-title">Joven Niel Poquita</h4>
-				<p class="card-text">Github: <a href="https://github.com/joevinnielp"> joevinnielp</a></p>
-				</div>
-			  </div>
-			</div>
-			 
+	</div>
+	</div> 
+</div>	
+
+ <div class="cont">
+  <div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-sm-4 col-6">
+			<div class="qitem">
+			<a href="http://www.google.com"><img src="img/3.gif" alt="Test 1" title="" width="126" height="126"/></a>
+			<span class="caption"><h4>Night Club</h4><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></span>
+		</div>
+	</div>
+		<div class="card-block" id="font">
+			<h4 class="card-title"><li><a href="gallery.html">Untal Vicio</a></li></h4>
+			<p class="card-text">Github: <a href="https://github.com/joevinnielp">Untal Vicio</a></p>
+		</div>
+	</div>
+	</div> 
+</div>
+
+ <div class="cont">
+  <div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-sm-4 col-6">
+			<div class="qitem">
+			<a href="http://www.google.com"><img src="img/4.gif" alt="Test 1" title="" width="126" height="126"/></a>
+			<span class="caption"><h4>Night Club</h4><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></span>
+		</div>
+	</div>
+		<div class="card-block" id="font">
+			<h4 class="card-title"><li><a href="calendar.html">Jay Harley E. Gadingan</a></li></h4>
+			<p class="card-text">Github: <a href="https://github.com/joevinnielp">Jay</a></p>
+		</div>
+	</div>
+	</div> 
+</div>
+
+ <div class="cont">
+  <div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-sm-4 col-6">
+			<div class="qitem">
+			<a href="http://www.google.com"><img src="img/5.gif" alt="Test 1" title="" width="126" height="126"/></a>
+			<span class="caption"><h4>Night Club</h4><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></span>
+		</div>
+	</div>
+		<div class="card-block" id="font">
+			<h4 class="card-title"><li><a href="#">Jassen Cabilangan</a></li></h4>
+			<p class="card-text">Github: <a href="https://github.com/joevinnielp">Jassen</a></p>
+		</div>
+	</div>
+	</div> 
+</div>
+
+ <div class="cont">
+  <div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-sm-4 col-6">
+			<div class="qitem">
+			<a href="http://www.google.com"><img src="img/6.gif" alt="Test 1" title="" width="126" height="126"/></a>
+			<span class="caption"><h4>Night Club</h4><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></span>
+		</div>
+	</div>
+		<div class="card-block" id="font">
+			<h4 class="card-title"><li><a href="#">Cristy Joy Ybañez</a></li></h4>
+			<p class="card-text">Github: <a href="https://github.com/joevinnielp">cristy</a></p>
+		</div>
+	</div>
+	</div> 
+</div>
+
+ <div class="cont">
+  <div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-sm-4 col-6">
+			<div class="qitem">
+			<a href="http://www.google.com"><img src="img/7.gif" alt="Test 1" title="" width="126" height="126"/></a>
+			<span class="caption"><h4>Night Club</h4><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></span>
+		</div>
+	</div>
+		<div class="card-block" id="font">
+			<h4 class="card-title"><li><a href="#">Jose Rodolfo T. Fronda</a></li></h4>
+			<p class="card-text">Github: <a href="https://github.com/joevinnielp">Jose</a></p>
+		</div>
+	</div>
+	</div> 
+</div>
+
+ <div class="cont">
+  <div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-sm-4 col-6">
+			<div class="qitem">
+			<a href="http://www.google.com"><img src="img/8.gif" alt="Test 1" title="" width="126" height="126"/></a>
+			<span class="caption"><h4>Night Club</h4><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></span>
+		</div>
+	</div>
+		<div class="card-block" id="font">
+			<h4 class="card-title"><li><a href="">Charlotte Evangelio</a></li></h4>
+			<p class="card-text">Github: <a href="https://github.com/joevinnielp">lotte</a></p>
+		</div>
+	</div>
+	</div> 
+</div>
+
+ <div class="cont">
+  <div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-sm-4 col-6">
+			<div class="qitem">
+			<a href="http://www.google.com"><img src="img/9.gif" alt="Test 1" title="" width="126" height="126"/></a>
+			<span class="caption"><h4>Night Club</h4><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></span>
+		</div>
+	</div>
+		<div class="card-block" id="font">
+			<h4 class="card-title"><li><a href="">Kenneth Jude Carrera</a></li></h4>
+			<p class="card-text">Github: <a href="https://github.com/joevinnielp"> Ju De</a></p>
+		</div>
+	</div>
+	</div> 
+</div>
+</div>		
 			
 			
-			
-			
-<div class="qitem">
-	<a href="http://www.google.com"><img src="img/1.gif" alt="Test 1" title="" width="126" height="126"/></a>
-	<span class="caption"><h4>Night Club</h4><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></span>
-</div>
 
-<div class="qitem">
-	<a href="#"><img src="img/2.gif" alt="Test 1" title="" width="126" height="126"/></a>
-	<span class="caption"><h4>Umbrella</h4><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></span>
-</div>
-
-<div class="qitem">
-	<a href="#"><img src="img/3.gif" alt="Test 1" title="" width="126" height="126"/></a>
-	<span class="caption"><h4>Maximum</h4><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></span>
-</div>
-
-<div class="clear"></div>
-
-<div class="qitem">
-	<a href="#"><img src="img/4.gif" alt="Test 1" title="" width="126" height="126"/></a>
-	<span class="caption"><h4>litle Blackbird</h4><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></span>
-</div>
-
-<div class="qitem">
-	<a href="#"><img src="img/5.gif" alt="Test 1" title="" width="126" height="126"/></a>
-	<span class="caption"><h4>infinity crime</h4><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></span>
-</div>
-
-<div class="qitem">
-	<a href="#"><img src="img/6.gif" alt="Test 1" title="" width="126" height="126"/></a>
-	<span class="caption"><h4>Indacy</h4><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></span>
-</div>
-
-<div class="clear"></div>
-
-<div class="qitem">
-	<a href="#"><img src="img/7.gif" alt="Test 1" title="" width="126" height="126"/></a>
-	<span class="caption"><h4>Moon Balloon</h4><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></span>
-</div>
-
-<div class="qitem">
-	<a href="#"><img src="img/8.gif" alt="Test 1" title="" width="126" height="126"/></a>
-	<span class="caption"><h4>Yes Media</h4><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></span>
-</div>
-
-<div class="qitem">
-	<a href="#"><img src="img/9.gif" alt="Test 1" title="" width="126" height="126"/></a>
-	<span class="caption"><h4>Balloon Chef</h4><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></span>
-</div>
 
 </body>
 
@@ -100,6 +260,5 @@
 	<script src="js/Effect.js"></script>
 	<script src="js/jquery-1.3.1.min.js"></script>
 	<script src="js/jquery.easing.1.3.js"></script>
-
+	<script src="js/bootstrap.js"></script>
 </html>
- 

@@ -1,9 +1,15 @@
 .card img{
-height:200px;
-
+	height:200px;
 }
-.card{
-margin-left:20px;
-
-
+.card {
+	margin-left:20px;
 }
+
+#font h4,p{
+	font-size: 10px;
+}
+
+.align{
+	float:center;
+}
+
