@@ -1,7 +1,14 @@
 .card img{
-height:200px;
-
+	height:200px;
 }
+.card {
+	margin-left:20px;
+}
+
+#font h4,p{
+	font-size: 10px;
+}
+<<<<<<< HEAD
 .card responsive{
 float:right;
 border: 1px dotted black;
@@ -14,6 +21,30 @@ display:table;
 overflow-x:auto;
 overflow-y:auto;
 min-width:100px;
+=======
+<<<<<<< HEAD
+=======
+.card responsive{
+    float: right;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
+    width: 100%;
+    height: auto;
+	margin-left:10px;
+	position: relative;
+	display: table;
+	overflow-x:auto;
+	overflow-y:auto;
+    min-width:100px;	
+>>>>>>> 85b8313839abee1765b5f140132ce611754f01f1
+
+.align{
+	float:center;
+}
+
+<<<<<<< HEAD
+=======
+>>>>>>> Louis
 }
 .h1{
 
@@ -21,6 +52,7 @@ min-width:100px;
 	font:10px;
 		overflow-y:auto;
 	}
+<<<<<<< HEAD
 	
 	.card {
 		background:	#BDB76B;
@@ -29,3 +61,6 @@ min-width:100px;
 	.body{
 	background:#008000;
 }
+=======
+>>>>>>> 85b8313839abee1765b5f140132ce611754f01f1
+>>>>>>> Louis
