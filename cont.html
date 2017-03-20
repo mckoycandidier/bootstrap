@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Bootstrap</title>
+    <title>Contributor</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -16,74 +16,169 @@
     <link href="css/carousel.css" rel="stylesheet">
 	 <link href="css/card.css" rel="stylesheet">
   </head>
-  <body>
-  <div class="container">
+  <body bgcolor="#008000">
+		<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">WebDevOneTwoThree</a>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+		   <li class="nav-item">
+            <a class="nav-link" href="cont.html">Contributor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0"> 
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+			  Sign-in
+			</button>	
+        </form>
+		
+      </div>
+    </nav>
+
+ <!-- Modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Sign-in</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="modal-body">
+					<div class="container">
+					  <form>
+						<div class="form-group row">
+						  <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+						  <div class="col-sm-10">
+							<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+						  </div>
+						</div>
+						<div class="form-group row">
+						  <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+						  <div class="col-sm-10">
+							<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+						  </div>
+						</div>	
+						<div class="form-group row">
+						  <div class="offset-sm-2 col-sm-10">
+							<button type="submit" class="btn btn-primary">Sign in</button>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <div class="container" style="margin-top:50px;">
+   <h1 class="display-4" style="margin:20px;" align="center" ><b>Contributors</b></h1>
            <div class="row">
 		   <div class="col-lg-3 col-sm-4 col-6">
 
-			<div class="card" style="width: 20rem;">
-			  <img class="card-img-top" src="images/gallery/Penguins.jpg" alt="Card image cap">
+			<div class="card responsive" >
+			  <img class="card-img-top" src="images/contributor/sb.jpg" alt="Card image cap">
 			  <div class="card-block">
-				<a href="gallery.html">Vicio Untal III</a>
-				<p class="card-text">Github: <a href="https://github.com/Starvebread">Starvebread</a></p>
+				<h4 class="card-title">Vicio Untal, III</h4>
+				<p class="card-text">Github: <a href="https://github.com/StarveBread">StarveBread</a></p>
 			  </div>
 			  </div>
+			  <br></br>
 			</div>
 			 <div class="col-lg-3 col-sm-4 col-6">
-			<div class="card" style="width: 20rem;">
+			<div class="card responsive" >
 			  <img class="card-img-top" src="images/gallery/Koala.jpg" alt="Card image cap">
 			  <div class="card-block">
-				<a href="index.html">Louis Dagusen</a>
-				<p class="card-text">Github: <a href="https://github.com/Dagusen">Dagusen</a></p>
+				<h4 class="card-title">Louis Dagusen</h4>
+				<p class="card-text">Github: <a href="https://github.com/dagusen">Dagusen</a></p>
 			  </div>
 			  </div>
+			   <br></br>
 			</div>
 			<div class="col-lg-3 col-sm-4 col-6">
-			<div class="card" style="width: 20rem;">
-			  <img class="card-img-top" src="images/gallery/Jellyfish.jpg" alt="Card image cap">
+			<div class="card " >
+			  <img class="card-img-top" src="images/contributor/26270511.jpg" alt="Card image cap">
 			  <div class="card-block">
-				<a href="cont.html">Jassen Cabilangan</a>
+				<h4 class="card-title">Jassen Cabilangan</h4>
 				<p class="card-text">Github:  <a href="https://github.com/cabilangan112"> cabilangan112</a></p> 
 			  </div>
 			</div>
+			 <br></br>
 			</div>
 			<div class="col-lg-3 col-sm-4 col-6">
-			<div class="card" style="width: 20rem;">
-			  <img class="card-img-top" src="images/gallery/horrifying_house_guest_by_rattmeeves-d4enl24.jpg" alt="Card image cap">
-			  <div class="card-block">
-				<a href="cont.html">Cristy Joy Ybanez</a>
-				<p class="card-text">Github: <a href="https://github.com/cristyjoy"> cristyjoy</a></p>
-				</div>
-			  </div>
-			</div>
-			<div class="col-lg-3 col-sm-4 col-6">
-			<div class="card" style="width: 20rem;">
+			<div class="card" >
 			  <img class="card-img-top" src="images/gallery/Penguins.jpg" alt="Card image cap">
 			  <div class="card-block">
-				<a href="index.html">Jay Harley Gadingan</a>
-				<p class="card-text">Github: <a href="https://github.com/jhay"> jhay</a></p>
+				<h4 class="card-title">Joven Niel Poquita</h4>
+				<p class="card-text">Github: <a href="https://github.com/joevinnielp"> joevinnielp</a></p>
 				</div>
 			  </div>
+			  
+			</div>
+             
+			</div>
+			</div>
+			  <div class="container" style="margin-top:50px;">
+
+           <div class="row">
+		   <div class="col-lg-3 col-sm-4 col-6">
+
+			<div class="card responsive" >
+			  <img class="card-img-top" src="images/contributor/26269601.jpg" alt="Card image cap">
+			  <div class="card-block">
+				<h4 class="card-title">Cristy Joy Ybanez</h4>
+				<p class="card-text">Github: <a href="https://github.com/cristyjoy">cristyjoy</a></p>
+			  </div>
+			  </div>
+			   <br></br>
+			</div>
+			 <div class="col-lg-3 col-sm-4 col-6">
+			<div class="card responsive" >
+			  <img class="card-img-top" src="images/gallery/Koala.jpg" alt="Card image cap">
+			  <div class="card-block">
+				<h4 class="card-title">Charlotte Evangelio</h4>
+				<p class="card-text">Github: <a href="https://github.com/LotEvangelio">LotEvangelio</a></p>
+			  </div>
+			  </div>
+			   <br></br>
 			</div>
 			<div class="col-lg-3 col-sm-4 col-6">
-			<div class="card" style="width: 20rem;">
-			  <img class="card-img-top" src="images/contributor/Avatar_Aang.jpg" alt="Card image cap">
+			<div class="card " >
+			  <img class="card-img-top" src="images/gallery/Jellyfish.jpg" alt="Card image cap">
 			  <div class="card-block">
-				<a href="cont.html">Charlotte Evangelio</a>
-				<p class="card-text">Github: <a href="https://github.com/Charlotte"> Charlotte</a></p>
-				</div>
+				<h4 class="card-title">Jay Harley Gadingan</h4>
+				<p class="card-text">Github:  <a href="https://github.com/GadinganJayHarley06">GadinganJayHarley06</a></p> 
 			  </div>
+			</div>
+			 <br></br>
 			</div>
 			<div class="col-lg-3 col-sm-4 col-6">
-			<div class="card" style="width: 20rem;">
-			  <img class="card-img-top" src="images/gallery/Avatar_Aang.jpg" alt="Card image cap">
+			<div class="card" >
+			  <img class="card-img-top" src="images/gallery/Penguins.jpg" alt="Card image cap">
 			  <div class="card-block">
-				<a href="index.html">Joevin Neil Poquita</a>
-				<p class="card-text">Github: <a href="https://github.com/joevinneilp"> joevinneilp</a></p>
+				<h4 class="card-title">Joseeeeeee Rodolfooooo Fronda</h4>
+				<p class="card-text">Github: <a href="https://github.com/joevinnielp"> joevinnielp</a></p>
 				</div>
 			  </div>
+			  
 			</div>
-			
+
+			</div>
+			</div>
+			</div>
+			</div>
+			</div>
 			</div>
 			</div>
 
@@ -96,4 +191,3 @@
     <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
- 
