@@ -38,8 +38,23 @@ min-width:100px;
     min-width:100px;	
 
 
+.card responsive{
+    float: right;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
+    width: 100%;
+    height: auto;
+	margin-left:10px;
+	position: relative;
+	display: table;
+	overflow-x:auto;
+	overflow-y:auto;
+    min-width:100px;	
+
+
 .align{
 	float:center;
+<<<<<<< HEAD
 		}
 
 
@@ -58,5 +73,25 @@ min-width:100px;
 	}
 	.body{
 	background:#008000;
+=======
+
+
+
+
+>>>>>>> fcca65a68a4a589e3688ea7210e9c44f4b639436
 }
+.h1{
+
+	position: relative;
+	font:10px;
+		overflow-y:auto;
+	}
+	
+	.card {
+		background:	#BDB76B;
+	
+	}
+	.body{
+	background:#008000;
+	}
 
