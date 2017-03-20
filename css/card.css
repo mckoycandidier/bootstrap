@@ -1,7 +1,14 @@
 .card img{
-height:200px;
-
+	height:200px;
 }
+.card {
+	margin-left:20px;
+}
+
+#font h4,p{
+	font-size: 10px;
+}
+
 .card responsive{
     float: right;
     border: 1px dotted black;
@@ -14,6 +21,11 @@ height:200px;
 	overflow-x:auto;
 	overflow-y:auto;
     min-width:100px;	
+
+
+.align{
+	float:center;
+
 
 
 
@@ -32,3 +44,4 @@ height:200px;
 	.body{
 	background:#008000;
 	}
+
