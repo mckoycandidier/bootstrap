@@ -12,7 +12,11 @@ width:100%;
 
 .modal-dialog{
     position: relative;
+<<<<<<< HEAD
     display: table;
+=======
+    display: table; //This is important 
+>>>>>>> a28f988d775addfd2d02087f1a6c319d8ea70870
     overflow-y: auto;    
     overflow-x: auto;
     width: auto;

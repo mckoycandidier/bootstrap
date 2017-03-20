@@ -1,7 +1,14 @@
 .card img{
-height:200px;
-
+	height:200px;
 }
+.card {
+	margin-left:20px;
+}
+
+#font h4,p{
+	font-size: 10px;
+}
+<<<<<<< HEAD
 .card responsive{
     float: right;
     border: 1px dotted black;
@@ -14,8 +21,14 @@ height:200px;
 	overflow-x:auto;
 	overflow-y:auto;
     min-width:100px;	
+=======
+>>>>>>> a28f988d775addfd2d02087f1a6c319d8ea70870
 
+.align{
+	float:center;
+}
 
+<<<<<<< HEAD
 }
 .h1{
 
@@ -23,3 +36,5 @@ height:200px;
 	font:10px;
 		overflow-y:auto;
 	}
+=======
+>>>>>>> a28f988d775addfd2d02087f1a6c319d8ea70870
